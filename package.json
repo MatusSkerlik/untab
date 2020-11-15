@@ -2,11 +2,16 @@
   "name": "untab",
   "version": "0.1.0",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "test": "karma start"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
+    "jasmine-core": "^3.6.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "karma-rollup-preprocessor": "^7.0.5",
     "rollup": "^2.3.4",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-svelte": "^6.0.0",
